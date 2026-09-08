@@ -1,2 +1,4 @@
-# ai-sustainbility-assignment
-MUSA 6950 AI for Urban Sustainability Assignment and experiment
+# MUSA 6950 AI for Urban Sustainability Assignment
+**Zhanchao Yang**
+
+MUSA 6950 AI for Urban Sustainability Assignment and Experiment
