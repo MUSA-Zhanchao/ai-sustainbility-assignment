@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Assignment 1 -- NAIP imagery and derived rasters (too large for git)
+assignment_1/data/naip/
+assignment_1/output/*.tif
