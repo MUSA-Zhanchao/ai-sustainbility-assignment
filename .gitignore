@@ -220,3 +220,8 @@ __marimo__/
 # Assignment 1 -- NAIP imagery and derived rasters (too large for git)
 assignment_1/data/naip/
 assignment_1/output/*.tif
+
+assignment_2/data/dem/
+assignment_2/output/hand/
+assignment_2/output/depth/
+assignment_2/output/*.tif
