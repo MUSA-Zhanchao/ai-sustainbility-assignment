@@ -225,3 +225,4 @@ assignment_2/data/dem/
 assignment_2/output/hand/
 assignment_2/output/depth/
 assignment_2/output/*.tif
+.DS_Store
