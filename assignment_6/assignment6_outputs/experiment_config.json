@@ -1,0 +1,132 @@
+{
+  "class_mapping": [
+    {
+      "training_id": 0,
+      "name": "Tree canopy",
+      "source_codes": [
+        1
+      ],
+      "color": "#1b7837"
+    },
+    {
+      "training_id": 1,
+      "name": "Grass / shrub",
+      "source_codes": [
+        2
+      ],
+      "color": "#a6dba0"
+    },
+    {
+      "training_id": 2,
+      "name": "Bare soil",
+      "source_codes": [
+        3
+      ],
+      "color": "#c8a165"
+    },
+    {
+      "training_id": 3,
+      "name": "Water",
+      "source_codes": [
+        4
+      ],
+      "color": "#2166ac"
+    },
+    {
+      "training_id": 4,
+      "name": "Buildings",
+      "source_codes": [
+        5
+      ],
+      "color": "#d73027"
+    },
+    {
+      "training_id": 5,
+      "name": "Roads / railroads",
+      "source_codes": [
+        6
+      ],
+      "color": "#4d4d4d"
+    },
+    {
+      "training_id": 6,
+      "name": "Other paved surfaces",
+      "source_codes": [
+        7
+      ],
+      "color": "#bdbdbd"
+    }
+  ],
+  "ignore_index": 255,
+  "output_nodata": 255,
+  "excluded_source_codes": [
+    0
+  ],
+  "input_bands": [
+    1,
+    2,
+    3
+  ],
+  "in_channels": 3,
+  "out_channels": 7,
+  "model_input_size": 512,
+  "tile_size": 256,
+  "normalisation": {
+    "scale_divisor": 255.0,
+    "mean": [
+      0.563953161239624,
+      0.5756518840789795,
+      0.6334428191184998
+    ],
+    "std": [
+      0.23886694014072418,
+      0.219487264752388,
+      0.18663594126701355
+    ],
+    "fit_on": "training tiles, valid pixels"
+  },
+  "split": {
+    "axis": "x",
+    "order": [
+      "train",
+      "val",
+      "test"
+    ],
+    "fractions": {
+      "train": 0.7,
+      "val": 0.15,
+      "test": 0.15
+    },
+    "buffer_tiles": 1,
+    "tile_index_ranges": {
+      "train": [
+        0,
+        73
+      ],
+      "val": [
+        74,
+        90
+      ],
+      "test": [
+        91,
+        106
+      ]
+    },
+    "tiles_used": {
+      "train": 1500,
+      "val": 300,
+      "test": 430
+    },
+    "min_valid_frac": 0.5
+  },
+  "seed": 42,
+  "learning_rate": 0.001,
+  "optimizer": "Adam",
+  "batch_size": 8,
+  "epochs": 15,
+  "selected_epoch": 13,
+  "loss": "CrossEntropyLoss(ignore_index=255)",
+  "weight_strategy": "none",
+  "augmentation": "train only: rot90, h/v flip (shared by image & mask), brightness +-10% (image only)",
+  "val_miou_selected": 0.4739860800458186
+}

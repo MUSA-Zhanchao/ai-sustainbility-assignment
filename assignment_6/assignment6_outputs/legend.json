@@ -1,0 +1,87 @@
+[
+  {
+    "training_id": 0,
+    "name": "Tree canopy",
+    "source_codes": [
+      1
+    ],
+    "source_meaning": [
+      "Tree canopy"
+    ],
+    "color_hex": "#1b7837"
+  },
+  {
+    "training_id": 1,
+    "name": "Grass / shrub",
+    "source_codes": [
+      2
+    ],
+    "source_meaning": [
+      "Grass / shrub"
+    ],
+    "color_hex": "#a6dba0"
+  },
+  {
+    "training_id": 2,
+    "name": "Bare soil",
+    "source_codes": [
+      3
+    ],
+    "source_meaning": [
+      "Bare soil"
+    ],
+    "color_hex": "#c8a165"
+  },
+  {
+    "training_id": 3,
+    "name": "Water",
+    "source_codes": [
+      4
+    ],
+    "source_meaning": [
+      "Water"
+    ],
+    "color_hex": "#2166ac"
+  },
+  {
+    "training_id": 4,
+    "name": "Buildings",
+    "source_codes": [
+      5
+    ],
+    "source_meaning": [
+      "Buildings"
+    ],
+    "color_hex": "#d73027"
+  },
+  {
+    "training_id": 5,
+    "name": "Roads / railroads",
+    "source_codes": [
+      6
+    ],
+    "source_meaning": [
+      "Roads / railroads"
+    ],
+    "color_hex": "#4d4d4d"
+  },
+  {
+    "training_id": 6,
+    "name": "Other paved surfaces",
+    "source_codes": [
+      7
+    ],
+    "source_meaning": [
+      "Other paved surfaces"
+    ],
+    "color_hex": "#bdbdbd"
+  },
+  {
+    "training_id": 255,
+    "name": "No data / excluded",
+    "source_codes": [
+      0
+    ],
+    "color_hex": null
+  }
+]
